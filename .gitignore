@@ -1,0 +1,154 @@
+
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+.vscode/
+.idea/
+.fleet/
+
+# ------------------------------
+# Secrets / Environment
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+.Python
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ------------------------------
+# Jupyter / Notebooks
+# ------------------------------
+.ipynb_checkpoints/
+
+# If you don’t want to commit notebooks, uncomment:
+# *.ipynb
+
+# ------------------------------
+# Data / Datasets
+# (Keep small sample data in repo if needed)
+# ------------------------------
+data/
+datasets/
+raw/
+processed/
+interim/
+
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.db
+*.jsonl
+
+# Common media/archives for datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.avi
+*.mkv
+
+# Kaggle
+kaggle.json
+
+# ------------------------------
+# Model artifacts / checkpoints
+# ------------------------------
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.h5
+*.pkl
+*.joblib
+
+# ------------------------------
+# Experiment tracking / logs
+# ------------------------------
+logs/
+*.log
+
+wandb/
+mlruns/
+mlartifacts/
+
+lightning_logs/
+tensorboard/
+tb_logs/
+runs/
+
+# Hugging Face / Transformers caches
+.cache/
+cache/
+hf_cache/
+transformers_cache/
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.tmp
+*.swp
+*.swo
+
