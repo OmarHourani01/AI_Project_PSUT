@@ -25,6 +25,7 @@ kagglehub==0.3.13
 kagglesdk==0.1.14
 kiwisolver==1.4.9
 librt==0.7.5
+lightgbm==4.6.0
 matplotlib==3.10.8
 matplotlib-inline==0.2.1
 mypy==1.19.1
