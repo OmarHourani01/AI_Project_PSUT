@@ -39,6 +39,7 @@ venv/
 env/
 ENV/
 .conda/
+paper
 
 # Packaging / build
 build/
